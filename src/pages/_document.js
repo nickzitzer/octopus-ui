@@ -5,25 +5,19 @@ export default function Document() {
     <Html>
       <Head>
         <meta name="theme-color" content="#2296f3" />
-        <meta name="title" content="Berry - React Material Admin Dashboard Template by CodedThemes" />
-        <meta
-          name="description"
-          content="Start your next React project with Berry admin template. It build with Reactjs, Material-UI, Redux, and Hook for faster web development."
-        />
+        <meta name="title" content="Octopus" />
+        <meta name="description" content="Unified Communications Platform" />
         <meta
           name="keywords"
           content="react admin template, material-ui react dashboard template, reactjs admin template, reactjs dashboard, react backend template"
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://berrydashboard.io/" />
-        <meta property="og:site_name" content="berrydashboard.io" />
-        <meta property="article:publisher" content="https://www.facebook.com/codedthemes" />
-        <meta property="og:title" content="Berry - React Material Dashboard Template" />
-        <meta
-          property="og:description"
-          content="Berry Dashboard is made for the faster web application development built using Material-UI, Reactjs, Redux & Hook API."
-        />
+        <meta property="og:url" content="https://octopus.io/" />
+        <meta property="og:site_name" content="octopus.io" />
+        <meta property="article:publisher" content="https://www.facebook.com/octopus" />
+        <meta property="og:title" content="Octopus" />
+        <meta property="og:description" content="Unified Communications Platform" />
         <meta property="og:image" content="https://berrydashboard.io/og-image/og-facebook.png" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://berrydashboard.io" />
