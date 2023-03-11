@@ -2,29 +2,29 @@
 $paper: #C9E8FE;
 
 // primary
-$primaryMain: #13229D;
+$primaryMain: #279CE1;
 $primaryLight: lighten($primaryMain, 40%);
 $primaryDark: darken($primaryMain, 40%);
 $primary200: lighten($primaryMain, 20%);
 $primary800: darken($primaryMain, 20%);
 
 // secondary
-$secondaryMain: #7AC3FE;
+$secondaryMain: #e16b27;
 $secondaryLight: lighten($secondaryMain, 20%);
 $secondaryDark: darken($secondaryMain, 20%);
 $secondary200: lighten($secondaryMain, 10%);
 $secondary800: darken($secondaryMain, 10%);
 
 // success Colors
-$successLight: #b9f6ca;
-$success200: #69f0ae;
-$successMain: #00e676;
-$successDark: #00c853;
+$successMain: #27e1c8;
+$successLight: lighten($successMain, 20%);
+$success200: lighten($successLight, 10%);
+$successDark: darken($successMain, 20%);
 
 // error
-$errorLight: #ef9a9a;
-$errorMain: #f44336;
-$errorDark: #c62828;
+$errorMain: #e1279d;
+$errorLight: lighten($errorMain, 20%);
+$errorDark: darken($errorMain, 20%);
 
 // orange
 $orangeLight: #fbe9e7;
