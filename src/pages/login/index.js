@@ -15,7 +15,6 @@ import AuthFooter from 'components/ui-component/cards/AuthFooter';
 import useAuth from 'hooks/useAuth';
 
 // ================================|| AUTH3 - LOGIN ||================================ //
-
 const Login = () => {
   const theme = useTheme();
   const { isLoggedIn } = useAuth();
