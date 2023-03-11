@@ -21,8 +21,8 @@ export const AUTH0_API = {
 };
 
 export const AWS_API = {
-  poolId: 'us-east-1_N38Y1Lnwj',
-  appClientId: '6o9pjh5u9g7aa63fjiajbk0vs6'
+  poolId: 'us-east-1_Ct5TnitSD',
+  appClientId: 'v2me297hg423l7sq9lcaglbuk'
 };
 
 // basename: only at build time to set, and Don't add '/' at end off BASENAME for breadcrumbs, also Don't put only '/' use blank('') instead,
