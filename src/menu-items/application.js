@@ -59,7 +59,7 @@ const application = {
     },
     {
       id: 'social',
-      title: <FormattedMessage id="social" />,
+      title: <FormattedMessage id="Social" />,
       type: 'item',
       icon: icons.IconShare,
       url: '/app/social'
@@ -67,24 +67,9 @@ const application = {
     {
       id: 'contact',
       title: <FormattedMessage id="contact" />,
-      type: 'collapse',
+      type: 'item',
       icon: icons.IconNfc,
-      children: [
-        {
-          id: 'c-card',
-          title: <FormattedMessage id="cards" />,
-          type: 'item',
-          url: '/app/contact/c-card',
-          breadcrumbs: false
-        },
-        {
-          id: 'c-list',
-          title: <FormattedMessage id="list" />,
-          type: 'item',
-          url: '/app/contact/c-list',
-          breadcrumbs: false
-        }
-      ]
+      url: '/app/contacts'
     }
   ]
 };
