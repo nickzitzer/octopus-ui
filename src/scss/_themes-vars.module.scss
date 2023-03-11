@@ -1,0 +1,157 @@
+// paper & background
+$paper: #C9E8FE;
+
+// primary
+$primaryMain: #13229D;
+$primaryLight: lighten($primaryMain, 40%);
+$primaryDark: darken($primaryMain, 40%);
+$primary200: lighten($primaryMain, 20%);
+$primary800: darken($primaryMain, 20%);
+
+// secondary
+$secondaryMain: #7AC3FE;
+$secondaryLight: lighten($secondaryMain, 20%);
+$secondaryDark: darken($secondaryMain, 20%);
+$secondary200: lighten($secondaryMain, 10%);
+$secondary800: darken($secondaryMain, 10%);
+
+// success Colors
+$successLight: #b9f6ca;
+$success200: #69f0ae;
+$successMain: #00e676;
+$successDark: #00c853;
+
+// error
+$errorLight: #ef9a9a;
+$errorMain: #f44336;
+$errorDark: #c62828;
+
+// orange
+$orangeLight: #fbe9e7;
+$orangeMain: #ffab91;
+$orangeDark: #d84315;
+
+// warning
+$warningLight: #fff8e1;
+$warningMain: #ffe57f;
+$warningDark: #ffc107;
+
+// grey
+$grey900: #050A30;
+$grey50: lighten($grey900, 95%);
+$grey100: lighten($grey900, 90%);
+$grey200: lighten($grey900, 80%);
+$grey300: lighten($grey900, 70%);
+$grey500: lighten($grey900, 50%);
+$grey600: lighten($grey900, 40%);
+$grey700: lighten($grey900, 20%);
+
+// ==============================|| DARK THEME VARIANTS ||============================== //
+
+// paper & background
+$darkPaper: #050A30; // level 4
+$darkBackground: lighten($darkPaper, 10%); // level 3
+
+// dark 800 & 900
+$darkLevel1: lighten($darkPaper, 20%); // level 1
+$darkLevel2: lighten($darkPaper, 40%); // level 2
+
+// primary dark
+$darkPrimaryMain: $primaryLight;
+$darkPrimaryLight: lighten($darkPrimaryMain, 20%);
+$darkPrimaryDark: darken($darkPrimaryMain, 20%);
+$darkPrimary200: lighten($darkPrimaryMain, 10%);
+$darkPrimary800: darken($darkPrimaryMain, 10%);
+
+// secondary dark
+$darkSecondaryMain: $secondaryMain;
+$darkSecondaryLight: lighten($darkSecondaryMain, 20%);
+$darkSecondaryDark: darken($darkSecondaryMain, 20%);
+$darkSecondary200: lighten($darkSecondaryMain, 10%);
+$darkSecondary800: darken($darkSecondaryMain, 10%);
+
+// text variants
+$darkTextTitle: $paper;
+$darkTextPrimary: darken($paper, 10%);
+$darkTextSecondary: darken($paper, 20%);
+
+// ==============================|| JAVASCRIPT ||============================== //
+
+:export {
+  // paper & background
+  paper: $paper;
+
+  // primary
+  primaryLight: $primaryLight;
+  primary200: $primary200;
+  primaryMain: $primaryMain;
+  primaryDark: $primaryDark;
+  primary800: $primary800;
+
+  // secondary
+  secondaryLight: $secondaryLight;
+  secondary200: $secondary200;
+  secondaryMain: $secondaryMain;
+  secondaryDark: $secondaryDark;
+  secondary800: $secondary800;
+
+  // success
+  successLight: $successLight;
+  success200: $success200;
+  successMain: $successMain;
+  successDark: $successDark;
+
+  // error
+  errorLight: $errorLight;
+  errorMain: $errorMain;
+  errorDark: $errorDark;
+
+  // orange
+  orangeLight: $orangeLight;
+  orangeMain: $orangeMain;
+  orangeDark: $orangeDark;
+
+  // warning
+  warningLight: $warningLight;
+  warningMain: $warningMain;
+  warningDark: $warningDark;
+
+  // grey
+  grey50: $grey50;
+  grey100: $grey100;
+  grey200: $grey200;
+  grey300: $grey300;
+  grey500: $grey500;
+  grey600: $grey600;
+  grey700: $grey700;
+  grey900: $grey900;
+
+  // ==============================|| DARK THEME VARIANTS ||============================== //
+
+  // paper & background
+  darkPaper: $darkPaper;
+  darkBackground: $darkBackground;
+
+  // dark 800 & 900
+  darkLevel1: $darkLevel1;
+  darkLevel2: $darkLevel2;
+
+  // text variants
+  darkTextTitle: $darkTextTitle;
+  darkTextPrimary: $darkTextPrimary;
+  darkTextSecondary: $darkTextSecondary;
+
+  // primary dark
+  darkPrimaryLight: $darkPrimaryLight;
+  darkPrimaryMain: $darkPrimaryMain;
+  darkPrimaryDark: $darkPrimaryDark;
+  darkPrimary200: $darkPrimary200;
+  darkPrimary800: $darkPrimary800;
+
+  // secondary dark
+  darkSecondaryLight: $darkSecondaryLight;
+  darkSecondaryMain: $darkSecondaryMain;
+  darkSecondaryDark: $darkSecondaryDark;
+  darkSecondary200: $darkSecondary200;
+  darkSecondary800: $darkSecondary800;
+}
