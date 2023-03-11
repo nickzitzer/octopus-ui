@@ -2,7 +2,17 @@
 import { FormattedMessage } from 'react-intl';
 
 // assets
-import { IconApps, IconUserCheck, IconBasket, IconMessages, IconLayoutKanban, IconMail, IconCalendar, IconNfc } from '@tabler/icons';
+import {
+  IconApps,
+  IconUserCheck,
+  IconBasket,
+  IconMessages,
+  IconLayoutKanban,
+  IconMail,
+  IconCalendar,
+  IconNfc,
+  IconShare
+} from '@tabler/icons';
 
 // constant
 const icons = {
@@ -13,7 +23,8 @@ const icons = {
   IconLayoutKanban,
   IconMail,
   IconCalendar,
-  IconNfc
+  IconNfc,
+  IconShare
 };
 
 // ==============================|| APPLICATION MENU ITEMS ||============================== //
@@ -50,7 +61,7 @@ const application = {
       id: 'social',
       title: <FormattedMessage id="social" />,
       type: 'item',
-      icon: icons.IconApps,
+      icon: icons.IconShare,
       url: '/app/social'
     },
     {
